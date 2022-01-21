@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./CounterComponent.styles.css";
 
 export default function CounterComponent() {
-let [countNum, setCount] = useState(0);
+let [countNum, setCount] = React.useState(0);
 let increaseValaue = () => {
 setCount((countNum += 1)); //increases the count by 1
 };
