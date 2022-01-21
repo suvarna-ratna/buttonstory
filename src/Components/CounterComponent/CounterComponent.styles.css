@@ -1,5 +1,4 @@
 .counter-component h1 {
-  color: var(--black);
   text-align: center;
   font-size: 4rem;
 }
